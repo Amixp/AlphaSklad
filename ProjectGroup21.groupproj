@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{CB101D67-E7CE-4B11-8E17-5B50924E00CF}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="AlphaSklad2.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AlphaSklad2">
+        <MSBuild Projects="AlphaSklad2.dproj"/>
+    </Target>
+    <Target Name="AlphaSklad2:Clean">
+        <MSBuild Projects="AlphaSklad2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AlphaSklad2:Make">
+        <MSBuild Projects="AlphaSklad2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AlphaSklad2"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AlphaSklad2:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AlphaSklad2:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

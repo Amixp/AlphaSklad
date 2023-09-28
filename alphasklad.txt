@@ -1,0 +1,2 @@
+AppName: alphasklad.exe	 AppVer: 2.0.1.79	 ModName: alphasklad.exe
+ModVer: 2.0.1.79	 Offset: 00003a7a

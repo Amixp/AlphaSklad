@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E8386BCC-8971-4B7B-9E9A-E77FFFFEB560}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="AlphaSklad.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TestDB.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AlphaSklad">
+        <MSBuild Projects="AlphaSklad.dproj"/>
+    </Target>
+    <Target Name="AlphaSklad:Clean">
+        <MSBuild Projects="AlphaSklad.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AlphaSklad:Make">
+        <MSBuild Projects="AlphaSklad.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TestDB">
+        <MSBuild Projects="TestDB.dproj"/>
+    </Target>
+    <Target Name="TestDB:Clean">
+        <MSBuild Projects="TestDB.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TestDB:Make">
+        <MSBuild Projects="TestDB.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AlphaSklad;TestDB"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AlphaSklad:Clean;TestDB:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AlphaSklad:Make;TestDB:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

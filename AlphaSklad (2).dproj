@@ -1,0 +1,256 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{FA163455-246A-4DF2-A26A-48A829DD6DEE}</ProjectGuid>
+        <MainSource>AlphaSklad.dpr</MainSource>
+        <Base>True</Base>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <TargetedPlatforms>1</TargetedPlatforms>
+        <AppType>Application</AppType>
+        <FrameworkType>VCL</FrameworkType>
+        <ProjectVersion>15.1</ProjectVersion>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <DCC_Optimize>false</DCC_Optimize>
+        <DCC_MapFile>3</DCC_MapFile>
+        <DCC_Define>EUREKALOG;EUREKALOG_VER6;$(DCC_Define)</DCC_Define>
+        <VerInfo_AutoGenVersion>true</VerInfo_AutoGenVersion>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_MajorVer>2</VerInfo_MajorVer>
+        <DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;Bde;System.Win;Data.Win;$(DCC_Namespace)</DCC_Namespace>
+        <DCC_Description>AlphaSklad</DCC_Description>
+        <DCC_UNSAFE_TYPE>true</DCC_UNSAFE_TYPE>
+        <DCC_UNSAFE_CAST>true</DCC_UNSAFE_CAST>
+        <DCC_UNSAFE_CODE>true</DCC_UNSAFE_CODE>
+        <VerInfo_Build>133</VerInfo_Build>
+        <DCC_K>false</DCC_K>
+        <DCC_F>false</DCC_F>
+        <DCC_N>true</DCC_N>
+        <VerInfo_Release>1</VerInfo_Release>
+        <DCC_S>false</DCC_S>
+        <DCC_E>false</DCC_E>
+        <DCC_UsePackage>rtl;advpnlpkgd6;vcl;dbrtl;adortl;vcldb;vclx;bdertl;vcldbx;ibxpress;dsnap;cds;bdecds;qrpt;teeui;teedb;tee;dss;teeqr;visualclx;visualdbclx;dsnapcrba;dsnapcon;VclSmp;vclshlctrls;vclie;xmlrtl;inet;inetdbbde;inetdbxpress;inetdb;nmfast;webdsnap;websnap;dbexpress;dbxcds;indy;dclOffice2k;dxInsD6;dxDBEdD6;dxEdtrD6;dxcomnd6;dxMasterViewD6;dxPSCoreD6;dxPSLnksD6;dxPSTeeChartD6;dxPSDBTeeChartD6;dxPSdxInsLnkD6;dxPSdxMVLnkD6;EQTLD6;ECQDBCD6;EQDBTLD6;EQGridD6;dxGrEdD6;dxExELD6;dxELibD6;fc3000v6;esbpcs_rt_d6;esbpcs_db_rt_d6;ip3000clientvcl6;ip3000v6;ABCC;dxExRwD6;AppControlsD6;FlatStyle_D6;ComDrv32;Rz252N60;RxCtl6;RxDB6;RxBDE6;PsLkpD60;Rz252D60;mypackage;$(DCC_UsePackage)</DCC_UsePackage>
+        <DCC_ImageBase>00400000</DCC_ImageBase>
+        <VerInfo_Keys>CompanyName=Амига;FileDescription=Альфа-Склад;FileVersion=2.0.1.133;InternalName=Альфа-Склад;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=Альфа-Склад;ProductVersion=1.0.0.0;LastCompiledTime=27.02.2013 2:50:41</VerInfo_Keys>
+        <VerInfo_Locale>1049</VerInfo_Locale>
+        <DCC_SymbolReferenceInfo>1</DCC_SymbolReferenceInfo>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <DCC_UsePackage>officeXPrt;$(DCC_UsePackage)</DCC_UsePackage>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <Icon_MainIcon>AlphaSklad_Icon.ico</Icon_MainIcon>
+        <DCC_Namespace>Datasnap.Win;Web.Win;Soap.Win;Xml.Win;$(DCC_Namespace)</DCC_Namespace>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <DCC_UsePackage>officeXPrt;$(DCC_UsePackage)</DCC_UsePackage>
+        <Icon_MainIcon>AlphaSklad_Icon.ico</Icon_MainIcon>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+        <DCC_DebugInformation>0</DCC_DebugInformation>
+        <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+        <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+        <DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <VerInfo_Build>141</VerInfo_Build>
+        <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
+        <VerInfo_AutoGenVersion>false</VerInfo_AutoGenVersion>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=Амига;FileDescription=Альфа-Склад;FileVersion=2.0.1.141;InternalName=Альфа-Склад;LegalCopyright=Copyright © 2001-2013, Amiga®;LegalTrademarks=;OriginalFilename=;ProductName=Альфа-Склад;ProductVersion=2.0.1.2;Comments=</VerInfo_Keys>
+        <BRCC_Verbose>true</BRCC_Verbose>
+        <DCC_WriteableConstants>true</DCC_WriteableConstants>
+        <DCC_FullBooleanEvaluations>true</DCC_FullBooleanEvaluations>
+        <DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+    </PropertyGroup>
+    <ItemGroup>
+        <DelphiCompile Include="$(MainSource)">
+            <MainSource>MainSource</MainSource>
+        </DelphiCompile>
+        <DCCReference Include="UnitSklad1.pas">
+            <Form>MainForm</Form>
+        </DCCReference>
+        <DCCReference Include="IncomingUnit.pas">
+            <Form>IncomingProd</Form>
+        </DCCReference>
+        <DCCReference Include="FormOptions1.pas">
+            <Form>FormOptions</Form>
+        </DCCReference>
+        <DCCReference Include="AddPack1.pas">
+            <Form>AddPack</Form>
+        </DCCReference>
+        <DCCReference Include="SaleProd1.pas">
+            <Form>SaleProd</Form>
+        </DCCReference>
+        <DCCReference Include="Progressform1.pas">
+            <Form>ProgressForm</Form>
+        </DCCReference>
+        <DCCReference Include="EditForm1.pas">
+            <Form>EditProd</Form>
+        </DCCReference>
+        <DCCReference Include="ChangeValue1.pas">
+            <Form>ChangeValue</Form>
+        </DCCReference>
+        <DCCReference Include="AddPeriodForm1.pas">
+            <Form>AddFormPeriod</Form>
+        </DCCReference>
+        <DCCReference Include="SysInfoForm1.pas">
+            <Form>SysInfoForm</Form>
+        </DCCReference>
+        <DCCReference Include="Data1.pas">
+            <Form>DataUnit</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Datas1.pas">
+            <Form>Datas</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="LogonUnit.pas">
+            <Form>LogonForm</Form>
+        </DCCReference>
+        <DCCReference Include="UnitChangePack.pas">
+            <Form>ChangePack</Form>
+        </DCCReference>
+        <DCCReference Include="UnitViewForm.pas">
+            <Form>ViewForm</Form>
+        </DCCReference>
+        <DCCReference Include="SavedFormUnit.pas">
+            <Form>SavedForm</Form>
+        </DCCReference>
+        <DCCReference Include="FormPassportsUnit.pas">
+            <Form>FormPassports</Form>
+        </DCCReference>
+        <DCCReference Include="UnitListDocFiles.pas">
+            <Form>ListFilesForm</Form>
+        </DCCReference>
+        <DCCReference Include="UnitDBImport.pas">
+            <Form>FormDBImport</Form>
+        </DCCReference>
+        <DCCReference Include="UnitService.pas"/>
+        <DCCReference Include="UnitClientForm.pas">
+            <Form>ClientForm</Form>
+        </DCCReference>
+        <None Include="AlphaSklad.todo"/>
+        <None Include="ModelSupport_AlphaSklad\default.txaPackage"/>
+        <None Include="ModelSupport_AlphaSklad\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\FormPassportsUnit\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\FormOptions1\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\UnitChangePack\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\ChangeValue1\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\IncomingUnit\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\UnitListDocFiles\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\AddPeriodForm1\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\UnitDBImport\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\UnitClientForm\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\UnitSklad1\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\Datas1\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\SavedFormUnit\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\UnitViewForm\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\AddPack1\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\EditForm1\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\Data1\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\UnitService\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\SaleProd1\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\LogonUnit\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\SysInfoForm1\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\Progressform1\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\AlphaSklad\default.txvpck"/>
+        <None Include="ModelSupport_AlphaSklad\SaleProd1\default.txaPackage"/>
+        <None Include="ModelSupport_AlphaSklad\UnitSklad1\default.txaPackage"/>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Delphi.Personality>
+                <Source>
+                    <Source Name="MainSource">AlphaSklad.dpr</Source>
+                </Source>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">True</VersionInfo>
+                    <VersionInfo Name="MajorVer">2</VersionInfo>
+                    <VersionInfo Name="MinorVer">0</VersionInfo>
+                    <VersionInfo Name="Release">1</VersionInfo>
+                    <VersionInfo Name="Build">145</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">1049</VersionInfo>
+                    <VersionInfo Name="CodePage">1251</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName">Амига</VersionInfoKeys>
+                    <VersionInfoKeys Name="FileDescription">Альфа-Склад</VersionInfoKeys>
+                    <VersionInfoKeys Name="FileVersion">2.0.1.145</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName">Альфа-Склад</VersionInfoKeys>
+                    <VersionInfoKeys Name="LegalCopyright"/>
+                    <VersionInfoKeys Name="LegalTrademarks"/>
+                    <VersionInfoKeys Name="OriginalFilename"/>
+                    <VersionInfoKeys Name="ProductName">Альфа-Склад</VersionInfoKeys>
+                    <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="LastCompiledTime">27.02.2013 2:50:41</VersionInfoKeys>
+                </VersionInfoKeys>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k190.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                </Excluded_Packages>
+            </Delphi.Personality>
+            <Platforms>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+            <ModelSupport>True</ModelSupport>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+    <Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+</Project>

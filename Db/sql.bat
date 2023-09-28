@@ -1,0 +1,1 @@
+"D:\progs\Paradox Converter\pxcnv.exe" D:\Docs\Dropbox\Проекты\AlphaSklad22\Db\sklad.DB D:\Docs\Dropbox\Проекты\AlphaSklad22\Db\sklad.sql

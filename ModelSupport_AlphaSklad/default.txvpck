@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="u0dkmxqet39ompedr_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::hvx9xqtnr0atb6f3q_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,161,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:FormPassportsUnit.TFormPassports" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:FormPassportsUnit.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::13uac37g9aaw0ewxq_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="190,1,133,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:FormOptions1.TFormOptions" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:FormOptions1.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::0dle02ybiaa5fbhos_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="190,171,148,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitChangePack.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitChangePack.TChangePack" />
+    </reference>
+    <reference referencedUin="design:view:::crrzt0g42bammhc4t_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="51,180,137,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:ChangeValue1.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:ChangeValue1.TChangeValue" />
+    </reference>
+    <reference referencedUin="design:view:::bqogd6iyeba0k5m9q_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="376,1,127,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:IncomingUnit.TIncomingProd" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:IncomingUnit.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::1st1jbkssba23f65g_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="376,171,145,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitListDocFiles.TListFilesForm" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitListDocFiles.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::9xehmabo2cab2gype_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="376,341,149,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:AddPeriodForm1.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:AddPeriodForm1.TAddFormPeriod" />
+    </reference>
+    <reference referencedUin="design:view:::xvdvt03kbcask0eln_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="237,369,129,166" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitDBImport.TFormDBImport" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitDBImport.TDBParam" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitDBImport.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::rx6a8f5epcaw5qfao_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="98,369,138,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitClientForm.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitClientForm.TClientForm" />
+    </reference>
+    <reference referencedUin="design:view:::lg0er7c85da5m8jqo_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="563,1,115,166" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitSklad1.TMainForm" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitSklad1.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitSklad1.TClient" />
+    </reference>
+    <reference referencedUin="design:view:::84n37ky4cda6pwkat_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="563,186,100,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:Datas1.TDatas" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:Datas1.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::b0jgcq0zpdae0050h_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="563,356,141,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:SavedFormUnit.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:SavedFormUnit.TSavedForm" />
+    </reference>
+    <reference referencedUin="design:view:::7306l3dr7ea12bb6k_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="563,526,133,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitViewForm.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitViewForm.TViewForm" />
+    </reference>
+    <reference referencedUin="design:view:::ntq7wn0mieaq15p5g_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="444,573,111,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:AddPack1.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:AddPack1.TAddPack" />
+    </reference>
+    <reference referencedUin="design:view:::kxt1887hueagys0qg_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="325,573,112,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:EditForm1.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:EditForm1.TEditProd" />
+    </reference>
+    <reference referencedUin="design:view:::06bjud9b8fa1qowqt_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="216,573,100,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:Data1.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:Data1.TDataUnit" />
+    </reference>
+    <reference referencedUin="design:view:::u2x93y57jfai7i3qt_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="97,573,118,196" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitService.TIncomProdEdit" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitService.TSaleProdEdit" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitService.TNumItem" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitService.TNumItems" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:UnitService.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::0knne5g5nfaz93xfi_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="742,1,113,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:SaleProd1.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:SaleProd1.TSaleProd" />
+    </reference>
+    <reference referencedUin="design:view:::0k9j3481xfaimbu3l_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="742,171,112,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:LogonUnit.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:LogonUnit.TLogonForm" />
+    </reference>
+    <reference referencedUin="design:view:::8p6if3zw6ga36105s_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="742,341,132,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:SysInfoForm1.TSysInfoForm" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:SysInfoForm1.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::nc07qnvrhga7pveoi_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="742,511,136,151" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:Progressform1.TProgressForm" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:Progressform1.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::4l2vdu6qlgaym0s4r_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="742,681,118,134" />
+      <reference referencedUin="delphi:e_class:src:AlphaSklad:AlphaSklad.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>

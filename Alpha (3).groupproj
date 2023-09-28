@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{01140420-D633-4987-95C5-723F73B5ADAF}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ClearDataBase.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ClearDataBase">
+        <MSBuild Projects="ClearDataBase.dproj"/>
+    </Target>
+    <Target Name="ClearDataBase:Clean">
+        <MSBuild Projects="ClearDataBase.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ClearDataBase:Make">
+        <MSBuild Projects="ClearDataBase.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ClearDataBase"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ClearDataBase:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ClearDataBase:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

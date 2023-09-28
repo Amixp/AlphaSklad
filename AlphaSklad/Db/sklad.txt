@@ -1,0 +1,10 @@
+"NameProd";"Producer";"Transport";"Fridge";"Sklad";"Date";"Lot";"Packing";"Weight_place";"N_Items";"Net_weight";"Gross_weight";"Comment";"Color"
+"AŒ‰†” ¡d";"AIDO"IAOA#A"";"AEOEI";"1";"1073";8/21/2;"1";"Š.˜—.";"12,0333";11.00;132.37;146.93;;
+"E… …‰… A ¡d";"AIDO"IAOA#A"";"AEOEI";"1";"1073";8/21/2;"1";"†o.";"20";42.00;840.00;882.00;"fdgfdgfdgdfgdfgyh7tykjh,nm,nm,nbnytujngnfhtyumkjgjgmu7676u7mjgfjfghjthmkhjy7ugjgjmjgyuty7tyyyffmfutyiyui.dym56mrmjh,i7   u7ymut gt756yj ,lhdg,yjffhytj";65280
+"E… …‰… A ¡d";"DAEEO";"AEOEI";"111";"594";10/8/2;"0";"†o.";"21";1.00;21.00;22.05;;
+"E… …‰…  a o•.Œd.";"IO"DI¥¥EIE"";"AEOEI";"111";"1073";8/22/2;;"Š.˜—.";"12,0333";35.00;421.17;467.49;;255
+"Od†¤ˆ…  a o•.Œd.‰ˆ.";"DUAOIEEAI";"OD"AEOEI"";"122";"983";7/16/2;"AI (41)";"¤‹†”.˜—.";"28";138.00;3864.00;4289.04;"‹Œ ˆ/¤ †‰ˆ…˜";255
+"Od†¤ˆ… ¡d";"DAEEO";"OD"AEOEI"";"222";"592";7/16/2;"A/I";"†o.";"20";153.00;3060.00;3213.00;"ˆ¤ 119 (¥.E–dŒƒ, •d…“."•d†¤ˆ…";
+"Od†¤ˆ… ¡d o•.Œd.";"DUAOIEEAI";"OD"AEOEI"";"244";"592";7/16/2;"AI (27)";"¤‹†”.˜—.";"28";84.00;2352.00;2610.72;"ˆ¤ 121";16711680
+"Od†¤ˆ… “Š‰† o•.Œd.";"DUAOIEEAI";"OD"AEOEI"";"233";"592";7/16/2;"AI (28)";"¤‹†”.˜—.";"27";65.00;1755.00;1948.05;"ˆ¤ 121 •d…“." /ˆŒ‘Š"";
+

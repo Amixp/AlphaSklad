@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{1660A7BD-F8AD-4D31-B68B-E642EFF60FAB}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="AlphaSklad.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\artem\Documents\RAD Studio\Projects\AlphaSklad22\test1.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AlphaSklad">
+        <MSBuild Projects="AlphaSklad.dproj"/>
+    </Target>
+    <Target Name="AlphaSklad:Clean">
+        <MSBuild Projects="AlphaSklad.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AlphaSklad:Make">
+        <MSBuild Projects="AlphaSklad.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="test1">
+        <MSBuild Projects="C:\Users\artem\Documents\RAD Studio\Projects\AlphaSklad22\test1.dproj"/>
+    </Target>
+    <Target Name="test1:Clean">
+        <MSBuild Projects="C:\Users\artem\Documents\RAD Studio\Projects\AlphaSklad22\test1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="test1:Make">
+        <MSBuild Projects="C:\Users\artem\Documents\RAD Studio\Projects\AlphaSklad22\test1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AlphaSklad;test1"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AlphaSklad:Clean;test1:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AlphaSklad:Make;test1:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

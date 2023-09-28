@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <node uin="6r7jt3uncol7ys52j_n">
+    <property name="$metaclass" value="Activity" />
+    <property name="$name" value="Activity1" />
+  </node>
+</nodeSet>

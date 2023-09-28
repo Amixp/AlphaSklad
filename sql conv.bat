@@ -1,0 +1,1 @@
+"D:\Progs\Paradox Converter\pxcnv.exe" E:\Users\Svetozarnaj\Dropbox\Проекты\AlphaSklad22\Db E:\Users\Svetozarnaj\Dropbox\Проекты\AlphaSklad22 /SEP,

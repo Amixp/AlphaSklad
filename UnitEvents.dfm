@@ -1,0 +1,41 @@
+object FormEvents: TFormEvents
+  Left = 0
+  Top = 0
+  Caption = 'FormEvents'
+  ClientHeight = 332
+  ClientWidth = 634
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnl1: TPanel
+    Left = 0
+    Top = 0
+    Width = 634
+    Height = 41
+    Align = alTop
+    Ctl3D = True
+    ParentCtl3D = False
+    TabOrder = 0
+    ExplicitLeft = 248
+    ExplicitTop = 104
+    ExplicitWidth = 185
+  end
+  object mmo1: TMemo
+    Left = 0
+    Top = 41
+    Width = 634
+    Height = 291
+    Align = alClient
+    TabOrder = 1
+    ExplicitLeft = 8
+    ExplicitTop = 56
+    ExplicitWidth = 185
+    ExplicitHeight = 89
+  end
+end

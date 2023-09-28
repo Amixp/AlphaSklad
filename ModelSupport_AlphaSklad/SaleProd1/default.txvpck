@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="0knne5g5nfaz93xfi_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:AlphaSklad:SaleProd1.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.@unitclass.SaleProd" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.@unitclass.lcid" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AlphaSklad:SaleProd1.TSaleProd">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,267,1630" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Back" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Bevel1" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Bevel4" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.BtnCancel" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Button1" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdComment" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdDate" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdFridge" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdGross_weight" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdLot" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdNameProd" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdNet_Weight" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdNumAuthority" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdNumLetter" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdN_Items" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdPacking" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdProducer" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdSklad" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdStorage_Date" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdTransport" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.EdWeight_place" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.XL" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Index" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label1" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label10" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label11" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label12" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label13" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label14" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label15" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label16" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label17" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label19" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label2" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label20" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label21" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label22" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label3" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label33" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label34" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label35" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label37" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label4" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label5" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label6" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label7" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label8" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Label9" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.LbAllItems" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.LbChar" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.LbDay" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.LbFridge" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.LbPer" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.LbSumItems" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.LbSumNet_Weight" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.LbTotal" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.ListStr0" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Next" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Pages" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.SelNum" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.StaticText1" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.StaticText2" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.TabSheet1" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Values0" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.WordApp" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.TabSheet2" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.BackClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.BitBtn1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.BitBtn2Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.BtnDone()" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.BtnNext()" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.Button1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.EdDateChange(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.EdGross_weightChange(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.EdNet_WeightChange(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.EdNumAuthorityChange(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.EdNumLetterChange(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.EdN_ItemsChange(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.EdPackingChange(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.EdStorage_DateChange(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.EdWeight_placeChange(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.ExportToWord()" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.FormClose(System.TObject,ref@System.UITypes.TCloseAction)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.FormShow(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.Mul_NetW()" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.NextClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.PackChange()" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.Print_to_WordClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.ReadToVars()" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.ReadValues()" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.Summ_ItemsNet()" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.GetNameByKey(System.string,System.string,System.string,Bde.DBTables.TTable)" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.ExportToWord2()" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Kf" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.MaxNums" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.NItems" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.NetWeight" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.GrossWeight" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Storage_Dates" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.Storage_fee" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.NumLetters" />
+      <reference referencedUin="delphi:e_field:src:AlphaSklad:SaleProd1.TSaleProd.NumAuthoritys" />
+      <reference referencedUin="delphi:e_method:src:AlphaSklad:SaleProd1.TSaleProd.currency2Str(System.Double)" />
+    </reference>
+  </view>
+</nodeSet>

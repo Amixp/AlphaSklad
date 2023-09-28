@@ -1,0 +1,30 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <DCC_Optimize>false</DCC_Optimize>
+        <DCC_MapFile>3</DCC_MapFile>
+        <DCC_Define>EUREKALOG;EUREKALOG_VER6;$(DCC_Define)</DCC_Define>
+        <VerInfo_AutoGenVersion>true</VerInfo_AutoGenVersion>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_MajorVer>2</VerInfo_MajorVer>
+        <DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;Bde;System.Win;Data.Win;$(DCC_Namespace)</DCC_Namespace>
+        <DCC_Description>AlphaSklad</DCC_Description>
+        <DCC_UNSAFE_TYPE>true</DCC_UNSAFE_TYPE>
+        <DCC_UNSAFE_CAST>true</DCC_UNSAFE_CAST>
+        <DCC_UNSAFE_CODE>true</DCC_UNSAFE_CODE>
+        <VerInfo_Build>133</VerInfo_Build>
+        <VerInfo_Release>1</VerInfo_Release>
+        <DCC_UsePackage>rtl;advpnlpkgd6;vcl;dbrtl;adortl;vcldb;vclx;bdertl;vcldbx;ibxpress;dsnap;cds;bdecds;qrpt;teeui;teedb;tee;dss;teeqr;visualclx;visualdbclx;dsnapcrba;dsnapcon;VclSmp;vclshlctrls;vclie;xmlrtl;inet;inetdbbde;inetdbxpress;inetdb;nmfast;webdsnap;websnap;dbexpress;dbxcds;indy;dclOffice2k;dxInsD6;dxDBEdD6;dxEdtrD6;dxcomnd6;dxMasterViewD6;dxPSCoreD6;dxPSLnksD6;dxPSTeeChartD6;dxPSDBTeeChartD6;dxPSdxInsLnkD6;dxPSdxMVLnkD6;EQTLD6;ECQDBCD6;EQDBTLD6;EQGridD6;dxGrEdD6;dxExELD6;dxELibD6;fc3000v6;esbpcs_rt_d6;esbpcs_db_rt_d6;ip3000clientvcl6;ip3000v6;ABCC;dxExRwD6;AppControlsD6;FlatStyle_D6;ComDrv32;Rz252N60;RxCtl6;RxDB6;RxBDE6;PsLkpD60;Rz252D60;mypackage;$(DCC_UsePackage)</DCC_UsePackage>
+        <DCC_ImageBase>00400000</DCC_ImageBase>
+        <VerInfo_Keys>CompanyName=Амига;FileDescription=Альфа-Склад;FileVersion=2.0.1.133;InternalName=Альфа-Склад;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=Альфа-Склад;ProductVersion=1.0.0.0;LastCompiledTime=27.02.2013 2:50:41</VerInfo_Keys>
+        <VerInfo_Locale>1049</VerInfo_Locale>
+        <DCC_SymbolReferenceInfo>1</DCC_SymbolReferenceInfo>
+    </PropertyGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType>OptionSet</Borland.ProjectType>
+        <BorlandProject>
+            <Delphi.Personality/>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+</Project>

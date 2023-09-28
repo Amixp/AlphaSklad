@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E8386BCC-8971-4B7B-9E9A-E77FFFFEB560}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="AlphaSklad.dproj">
+            <Dependencies>ClearDataBase.dproj;PrjConvertDB\AlphaConvertDB.dproj</Dependencies>
+        </Projects>
+        <Projects Include="ClearDataBase.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="PrjConvertDB\AlphaConvertDB.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AlphaSklad" DependsOnTargets="ClearDataBase;AlphaConvertDB">
+        <MSBuild Projects="AlphaSklad.dproj"/>
+    </Target>
+    <Target Name="AlphaSklad:Clean" DependsOnTargets="ClearDataBase:Clean;AlphaConvertDB:Clean">
+        <MSBuild Projects="AlphaSklad.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AlphaSklad:Make" DependsOnTargets="ClearDataBase:Make;AlphaConvertDB:Make">
+        <MSBuild Projects="AlphaSklad.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ClearDataBase">
+        <MSBuild Projects="ClearDataBase.dproj"/>
+    </Target>
+    <Target Name="ClearDataBase:Clean">
+        <MSBuild Projects="ClearDataBase.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ClearDataBase:Make">
+        <MSBuild Projects="ClearDataBase.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AlphaConvertDB">
+        <MSBuild Projects="PrjConvertDB\AlphaConvertDB.dproj"/>
+    </Target>
+    <Target Name="AlphaConvertDB:Clean">
+        <MSBuild Projects="PrjConvertDB\AlphaConvertDB.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AlphaConvertDB:Make">
+        <MSBuild Projects="PrjConvertDB\AlphaConvertDB.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AlphaSklad;ClearDataBase;AlphaConvertDB"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AlphaSklad:Clean;ClearDataBase:Clean;AlphaConvertDB:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AlphaSklad:Make;ClearDataBase:Make;AlphaConvertDB:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

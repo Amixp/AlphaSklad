@@ -1,0 +1,871 @@
+﻿==============================================================================
+= 02.09.2020 20:31:44                                                        =
+==============================================================================
+There was an error during the execution of this program.
+The application might become unstable and even useless.
+It's recommended that you save your work and close this application.
+
+[FireDAC][Phys]-300. Driver [MSSQL] is not registered. To register it, you can drop component [TFDPhysMSSQLDriverLink] into your project.
+
+------------------------------------------------------------------------------
+Exception log with detailed tech info. Generated on 02.09.2020 20:31:43.
+You may send it to the application vendor, helping him to understand what had happened.
+ Application title: Альфа-Склад
+ Application file: \\SERVER\Users\Administrator\YandexDisk-betarkdv\AlphaSklad23\win32\debug\AlphaSklad.exe
+------------------------------------------------------------------------------
+Exception class: EFDException
+Exception message: [FireDAC][Phys]-300. Driver [MSSQL] is not registered. To register it, you can drop component [TFDPhysMSSQLDriverLink] into your project.
+Exception address: 007E8D64
+------------------------------------------------------------------------------
+Main thread ID = 22620
+Exception thread ID = 22620
+------------------------------------------------------------------------------
+Exception stack
+Stack list, generated 02.09.2020 20:31:37
+[007E8D5F]{AlphaSklad.exe} Vcl.Imaging.jpeg.ProgressCallback
+[007E8D5F]{AlphaSklad.exe} Vcl.Imaging.jpeg.ProgressCallback
+[009DE321]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TDictionary<System.string,Data.DBXCommon.TDBXDriverClass>.GetBucketIndex
+[009DE874]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TDictionary<System.string,Data.DBXCommon.TDBXDriverClass>.Create
+[009DE9F5]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TDictionary<System.string,Data.DBXCommon.TDBXDriverClass>.Add
+[0087D0F3]{AlphaSklad.exe} Vcl.ActnMenus..TCustomActionMenuBar
+[0087D54C]{AlphaSklad.exe} Vcl.ActnMenus..TCustomActionMenuBar
+[007A30D9]{AlphaSklad.exe} WordXP.TWordApplication.KeyString
+[0087DA86]{AlphaSklad.exe} Vcl.ActnMenus..TCustomMenuExpandBtn
+[009FD328]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TArrayManager<Data.DBXCommon.TDBXCreateCommand>.Finalize
+[0048DCF3]{AlphaSklad.exe} System.Rtti.{System.Generics.Defaults}TEqualityComparer<System.Pointer>.Default
+[0048DBA0]{AlphaSklad.exe} System.Rtti..{System.Generics.Collections}@TList`1.Pack$697$ActRec<System.Rtti.TPair<System.string,System.TypInfo.PTypeInfo>>
+[0048DB80]{AlphaSklad.exe} System.Rtti..{System.Generics.Collections}@TList`1.Pack$697$ActRec<System.Rtti.TPair<System.string,System.TypInfo.PTypeInfo>>
+[0067A73A]{AlphaSklad.exe} Data.DB..TGuidField
+[00A3DE6B]{AlphaSklad.exe} Data.DBXCommonTable..TDBXTableReader
+------------------------------------------------------------------------------
+Call stack for main thread
+Stack list, generated 02.09.2020 20:31:44
+[772423FC]{ntdll.dll   } ZwGetContextThread
+------------------------------------------------------------------------------
+System   : Windows 10 Professional, Version: 10.0, Build: 4A61, ""
+Processor: Intel, Intel(R) Core(TM) i7-9700T CPU @ 2.00GHz, 1990 MHz MMX SSE SSE2 SSE3 SSSE3 SSE41 SSE42 64 bits DEP
+Memory: 65317; free 39267
+Display  : 1920x1200 pixels, 32 bpp
+------------------------------------------------------------------------------
+List of loaded modules:
+[00400000] \\SERVER\Users\Administrator\YandexDisk-betarkdv\AlphaSklad23\win32\debug\AlphaSklad.exe
+           2.0.1.157 - 2.0.1.157
+           Альфа-Склад
+           Unit versioning information:
+             JCL\source\common $URL$ $Revision$ $Date$
+[52160000] C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1\COMCTL32.dll
+           5.82.19041.1 - 5.82 (WinBuild.160101.0800)
+           Библиотека общих элементов управления
+[68220000] C:\Windows\SYSTEM32\MSDART.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           OLE DB Runtime Routines
+[69040000] C:\Windows\SYSTEM32\mpr.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека маршрутизации для нескольких служб доступа
+[6BAF0000] C:\Windows\SYSTEM32\wintypes.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека DLL основных типов Windows
+[6BBD0000] C:\Windows\SYSTEM32\CoreMessaging.dll
+           10.0.19041.423 - 10.0.19041.423
+           Microsoft CoreMessaging Dll
+[6BC70000] C:\Windows\SYSTEM32\CoreUIComponents.dll
+           10.0.19041.1 - 10.0.19041.1
+           Microsoft Core UI Components Dll
+[6BEF0000] C:\Windows\SYSTEM32\textinputframework.dll
+           10.0.19041.423 - 10.0.19041.423 (WinBuild.160101.0800)
+           "TextInputFramework.DYNLINK"
+[6C330000] C:\Windows\SYSTEM32\wsock32.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Windows Socket 32-Bit DLL
+[6CA60000] C:\Windows\SYSTEM32\TextShaping.dll
+           (no module version info)
+[6CF90000] C:\Program Files (x86)\Common Files\microsoft shared\ink\tiptsf.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Инфраструктура текстовых служб сенсорной клавиатуры и панели рукописного ввода
+[6DB80000] C:\Windows\SYSTEM32\DWMAPI.DLL
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Интерфейс API диспетчера окон рабочего стола (Майкрософт)
+[6DFF0000] C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2\comctl32.DLL
+           6.10.19041.1 - 6.10 (WinBuild.160101.0800)
+           Библиотека элементов управления взаимодействия с пользователем
+[6E2B0000] C:\Windows\SYSTEM32\SHFolder.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Shell Folder Service
+[6E870000] C:\Windows\SYSTEM32\WINSTA.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Winstation Library
+[72F80000] C:\Windows\SYSTEM32\ntmarta.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Поставщик Windows NT MARTA
+[73AE0000] C:\Windows\SYSTEM32\version.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Version Checking and File Installation Libraries
+[73BA0000] C:\Windows\SYSTEM32\winmm.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           MCI API DLL
+[73D40000] C:\Windows\SYSTEM32\oleacc.dll
+           7.2.19041.1 - 7.2.19041.1 (WinBuild.160101.0800)
+           Active Accessibility Core Component
+[73DA0000] C:\Windows\SYSTEM32\wtsapi32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows Remote Desktop Session Host Server SDK APIs
+[73E50000] C:\Windows\system32\uxtheme.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека тем UxTheme (Microsoft)
+[73EE0000] C:\Windows\SYSTEM32\winspool.drv
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Драйвер диспетчера очереди Windows
+[74070000] C:\Windows\SYSTEM32\NETUTILS.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Net Win32 API Helpers DLL
+[74080000] C:\Windows\SYSTEM32\kernel.appcore.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           AppModel API Host
+[740C0000] C:\Windows\System32\dbghelp.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows Image Helper
+[74500000] C:\Windows\SYSTEM32\netapi32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Net Win32 API DLL
+[750B0000] C:\Windows\System32\gdi32full.dll
+           10.0.19041.388 - 10.0.19041.388 (WinBuild.160101.0800)
+           GDI Client DLL
+[75190000] C:\Windows\System32\combase.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Microsoft COM для Windows
+[75420000] C:\Windows\System32\WS2_32.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           32-разрядная библиотека Windows Socket 2.0
+[75490000] C:\Windows\System32\PSAPI.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Process Status Helper
+[755B0000] C:\Windows\System32\RPCRT4.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека удаленного вызова процедур
+[75670000] C:\Windows\System32\KERNELBASE.dll
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека клиента Windows NT BASE API
+[75890000] C:\Windows\System32\Msctf.dll
+           10.0.19041.388 - 10.0.19041.444 (WinBuild.160101.0800)
+           Серверная библиотека MSCTF
+[75970000] C:\Windows\System32\ADVAPI32.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Расширенная библиотека API Windows 32
+[759F0000] C:\Windows\System32\imagehlp.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows NT Image Helper
+[75A10000] C:\Windows\System32\win32u.dll
+           10.0.19041.450 - 10.0.19041.450 (WinBuild.160101.0800)
+           Win32u
+[75A30000] C:\Windows\System32\comdlg32.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека общих диалоговых окон
+[75AE0000] C:\Windows\System32\sechost.dll
+           10.0.19041.388 - 10.0.19041.1 (WinBuild.160101.0800)
+           Host for SCM/SDDL/LSA Lookup APIs
+[75C40000] C:\Windows\System32\oleaut32.dll
+           10.0.19041.388 - 10.0.19041.388 (WinBuild.160101.0800)
+           OLEAUT32.DLL
+[76290000] C:\Windows\System32\SHLWAPI.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека небольших программ оболочки
+[762E0000] C:\Windows\System32\msvcp_win.dll
+           10.0.19041.423 - 10.0.19041.423 (WinBuild.160101.0800)
+           Microsoft® C Runtime Library
+[76360000] C:\Windows\System32\bcryptPrimitives.dll
+           10.0.19041.264 - 10.0.19041.264 (WinBuild.160101.0800)
+           Windows Cryptographic Primitives Library
+[763C0000] C:\Windows\System32\ucrtbase.dll
+           10.0.19041.423 - 10.0.19041.423 (WinBuild.160101.0800)
+           Microsoft® C Runtime Library
+[764E0000] C:\Windows\System32\clbcatq.dll
+           2001.12.10941.16384 - 2001.12.10941.16384 (WinBuild.160101.0800)
+           COM+ Configuration Catalog
+[76560000] C:\Windows\System32\USER32.dll
+           10.0.19041.388 - 10.0.19041.444 (WinBuild.160101.0800)
+           Многопользовательская библиотека клиента USER API Windows
+[76760000] C:\Windows\System32\SHELL32.dll
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Общая библиотека оболочки Windows
+[76D10000] C:\Windows\System32\GDI32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           GDI Client DLL
+[76DA0000] C:\Windows\System32\msvcrt.dll
+           7.0.19041.1 - 7.0.19041.1 (WinBuild.160101.0800)
+           Windows NT CRT DLL
+[76E60000] C:\Windows\System32\shcore.dll
+           10.0.19041.388 - 10.0.19041.444 (WinBuild.160101.0800)
+           SHCORE
+[76F50000] C:\Windows\System32\ole32.dll
+           10.0.19041.84 - 10.0.19041.444 (WinBuild.160101.0800)
+           Microsoft OLE для Windows
+[770A0000] C:\Windows\System32\KERNEL32.DLL
+           10.0.19041.292 - 10.0.19041.329 (WinBuild.160101.0800)
+           Библиотека клиента Windows NT BASE API
+[77190000] C:\Windows\System32\IMM32.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Multi-User Windows IMM32 API Client DLL
+[771D0000] C:\Windows\SYSTEM32\ntdll.dll
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Системная библиотека NT
+[79AE0000] C:\Program Files (x86)\Common Files\System\ado\msado15.dll
+           10.0.19041.329 - 10.0.19041.329 (WinBuild.160101.0800)
+           ActiveX Data Objects
+------------------------------------------------------------------------------
+Active Controls hierarchy:
+TLogonForm "LogonForm"
+------------------------------------------------------------------------------
+
+==============================================================================
+= 02.09.2020 20:31:49                                                        =
+==============================================================================
+There was an error during the execution of this program.
+The application might become unstable and even useless.
+It's recommended that you save your work and close this application.
+
+[FireDAC][Phys]-300. Driver [MSSQL] is not registered. To register it, you can drop component [TFDPhysMSSQLDriverLink] into your project.
+
+------------------------------------------------------------------------------
+Exception log with detailed tech info. Generated on 02.09.2020 20:31:49.
+You may send it to the application vendor, helping him to understand what had happened.
+ Application title: Альфа-Склад
+ Application file: \\SERVER\Users\Administrator\YandexDisk-betarkdv\AlphaSklad23\win32\debug\AlphaSklad.exe
+------------------------------------------------------------------------------
+Exception class: EFDException
+Exception message: [FireDAC][Phys]-300. Driver [MSSQL] is not registered. To register it, you can drop component [TFDPhysMSSQLDriverLink] into your project.
+Exception address: 007E8D64
+------------------------------------------------------------------------------
+Main thread ID = 22620
+Exception thread ID = 22620
+------------------------------------------------------------------------------
+Exception stack
+Stack list, generated 02.09.2020 20:31:46
+[007E8D5F]{AlphaSklad.exe} Vcl.Imaging.jpeg.ProgressCallback
+[007E8D5F]{AlphaSklad.exe} Vcl.Imaging.jpeg.ProgressCallback
+[009DE321]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TDictionary<System.string,Data.DBXCommon.TDBXDriverClass>.GetBucketIndex
+[009DE874]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TDictionary<System.string,Data.DBXCommon.TDBXDriverClass>.Create
+[009DE9F5]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TDictionary<System.string,Data.DBXCommon.TDBXDriverClass>.Add
+[0087D0F3]{AlphaSklad.exe} Vcl.ActnMenus..TCustomActionMenuBar
+[0087D54C]{AlphaSklad.exe} Vcl.ActnMenus..TCustomActionMenuBar
+[007A30D9]{AlphaSklad.exe} WordXP.TWordApplication.KeyString
+[007A3094]{AlphaSklad.exe} WordXP.TWordApplication.KeyString
+[0087CF14]{AlphaSklad.exe} Vcl.ActnMenus.TActionBarStyleEx.GetScrollBtnClass
+[0088D3CD]{AlphaSklad.exe} Vcl.ActnMan..TCustomActionBar
+[007B80A9]{AlphaSklad.exe} Vcl.Grids.TCustomGrid.DeleteRow
+[0084990B]{AlphaSklad.exe} ExcelXP.TExcelApplication.Dummy5 (Line 1365, "" + 0)
+[0048DCF3]{AlphaSklad.exe} System.Rtti.{System.Generics.Defaults}TEqualityComparer<System.Pointer>.Default
+[0048DBA0]{AlphaSklad.exe} System.Rtti..{System.Generics.Collections}@TList`1.Pack$697$ActRec<System.Rtti.TPair<System.string,System.TypInfo.PTypeInfo>>
+[0048DB80]{AlphaSklad.exe} System.Rtti..{System.Generics.Collections}@TList`1.Pack$697$ActRec<System.Rtti.TPair<System.string,System.TypInfo.PTypeInfo>>
+[0067A73A]{AlphaSklad.exe} Data.DB..TGuidField
+[00A3DE92]{AlphaSklad.exe} Data.DBXCommonTable..TDBXTableReader
+------------------------------------------------------------------------------
+Call stack for main thread
+Stack list, generated 02.09.2020 20:31:49
+[772423FC]{ntdll.dll   } ZwGetContextThread
+------------------------------------------------------------------------------
+System   : Windows 10 Professional, Version: 10.0, Build: 4A61, ""
+Processor: Intel, Intel(R) Core(TM) i7-9700T CPU @ 2.00GHz, 1990 MHz MMX SSE SSE2 SSE3 SSSE3 SSE41 SSE42 64 bits DEP
+Memory: 65317; free 39232
+Display  : 1920x1200 pixels, 32 bpp
+------------------------------------------------------------------------------
+List of loaded modules:
+[00400000] \\SERVER\Users\Administrator\YandexDisk-betarkdv\AlphaSklad23\win32\debug\AlphaSklad.exe
+           2.0.1.157 - 2.0.1.157
+           Альфа-Склад
+           Unit versioning information:
+             JCL\source\common $URL$ $Revision$ $Date$
+[52160000] C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1\COMCTL32.dll
+           5.82.19041.1 - 5.82 (WinBuild.160101.0800)
+           Библиотека общих элементов управления
+[68220000] C:\Windows\SYSTEM32\MSDART.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           OLE DB Runtime Routines
+[69040000] C:\Windows\SYSTEM32\mpr.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека маршрутизации для нескольких служб доступа
+[6BAF0000] C:\Windows\SYSTEM32\wintypes.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека DLL основных типов Windows
+[6BBD0000] C:\Windows\SYSTEM32\CoreMessaging.dll
+           10.0.19041.423 - 10.0.19041.423
+           Microsoft CoreMessaging Dll
+[6BC70000] C:\Windows\SYSTEM32\CoreUIComponents.dll
+           10.0.19041.1 - 10.0.19041.1
+           Microsoft Core UI Components Dll
+[6BEF0000] C:\Windows\SYSTEM32\textinputframework.dll
+           10.0.19041.423 - 10.0.19041.423 (WinBuild.160101.0800)
+           "TextInputFramework.DYNLINK"
+[6C330000] C:\Windows\SYSTEM32\wsock32.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Windows Socket 32-Bit DLL
+[6CA60000] C:\Windows\SYSTEM32\TextShaping.dll
+           (no module version info)
+[6CF90000] C:\Program Files (x86)\Common Files\microsoft shared\ink\tiptsf.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Инфраструктура текстовых служб сенсорной клавиатуры и панели рукописного ввода
+[6DB80000] C:\Windows\SYSTEM32\DWMAPI.DLL
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Интерфейс API диспетчера окон рабочего стола (Майкрософт)
+[6DFF0000] C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2\comctl32.DLL
+           6.10.19041.1 - 6.10 (WinBuild.160101.0800)
+           Библиотека элементов управления взаимодействия с пользователем
+[6E2B0000] C:\Windows\SYSTEM32\SHFolder.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Shell Folder Service
+[6E870000] C:\Windows\SYSTEM32\WINSTA.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Winstation Library
+[72F80000] C:\Windows\SYSTEM32\ntmarta.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Поставщик Windows NT MARTA
+[73AE0000] C:\Windows\SYSTEM32\version.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Version Checking and File Installation Libraries
+[73BA0000] C:\Windows\SYSTEM32\winmm.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           MCI API DLL
+[73D40000] C:\Windows\SYSTEM32\oleacc.dll
+           7.2.19041.1 - 7.2.19041.1 (WinBuild.160101.0800)
+           Active Accessibility Core Component
+[73DA0000] C:\Windows\SYSTEM32\wtsapi32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows Remote Desktop Session Host Server SDK APIs
+[73E50000] C:\Windows\system32\uxtheme.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека тем UxTheme (Microsoft)
+[73EE0000] C:\Windows\SYSTEM32\winspool.drv
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Драйвер диспетчера очереди Windows
+[74070000] C:\Windows\SYSTEM32\NETUTILS.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Net Win32 API Helpers DLL
+[74080000] C:\Windows\SYSTEM32\kernel.appcore.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           AppModel API Host
+[740C0000] C:\Windows\System32\dbghelp.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows Image Helper
+[74500000] C:\Windows\SYSTEM32\netapi32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Net Win32 API DLL
+[750B0000] C:\Windows\System32\gdi32full.dll
+           10.0.19041.388 - 10.0.19041.388 (WinBuild.160101.0800)
+           GDI Client DLL
+[75190000] C:\Windows\System32\combase.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Microsoft COM для Windows
+[75420000] C:\Windows\System32\WS2_32.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           32-разрядная библиотека Windows Socket 2.0
+[75490000] C:\Windows\System32\PSAPI.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Process Status Helper
+[755B0000] C:\Windows\System32\RPCRT4.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека удаленного вызова процедур
+[75670000] C:\Windows\System32\KERNELBASE.dll
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека клиента Windows NT BASE API
+[75890000] C:\Windows\System32\Msctf.dll
+           10.0.19041.388 - 10.0.19041.444 (WinBuild.160101.0800)
+           Серверная библиотека MSCTF
+[75970000] C:\Windows\System32\ADVAPI32.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Расширенная библиотека API Windows 32
+[759F0000] C:\Windows\System32\imagehlp.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows NT Image Helper
+[75A10000] C:\Windows\System32\win32u.dll
+           10.0.19041.450 - 10.0.19041.450 (WinBuild.160101.0800)
+           Win32u
+[75A30000] C:\Windows\System32\comdlg32.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека общих диалоговых окон
+[75AE0000] C:\Windows\System32\sechost.dll
+           10.0.19041.388 - 10.0.19041.1 (WinBuild.160101.0800)
+           Host for SCM/SDDL/LSA Lookup APIs
+[75C40000] C:\Windows\System32\oleaut32.dll
+           10.0.19041.388 - 10.0.19041.388 (WinBuild.160101.0800)
+           OLEAUT32.DLL
+[76290000] C:\Windows\System32\SHLWAPI.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека небольших программ оболочки
+[762E0000] C:\Windows\System32\msvcp_win.dll
+           10.0.19041.423 - 10.0.19041.423 (WinBuild.160101.0800)
+           Microsoft® C Runtime Library
+[76360000] C:\Windows\System32\bcryptPrimitives.dll
+           10.0.19041.264 - 10.0.19041.264 (WinBuild.160101.0800)
+           Windows Cryptographic Primitives Library
+[763C0000] C:\Windows\System32\ucrtbase.dll
+           10.0.19041.423 - 10.0.19041.423 (WinBuild.160101.0800)
+           Microsoft® C Runtime Library
+[764E0000] C:\Windows\System32\clbcatq.dll
+           2001.12.10941.16384 - 2001.12.10941.16384 (WinBuild.160101.0800)
+           COM+ Configuration Catalog
+[76560000] C:\Windows\System32\USER32.dll
+           10.0.19041.388 - 10.0.19041.444 (WinBuild.160101.0800)
+           Многопользовательская библиотека клиента USER API Windows
+[76760000] C:\Windows\System32\SHELL32.dll
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Общая библиотека оболочки Windows
+[76D10000] C:\Windows\System32\GDI32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           GDI Client DLL
+[76DA0000] C:\Windows\System32\msvcrt.dll
+           7.0.19041.1 - 7.0.19041.1 (WinBuild.160101.0800)
+           Windows NT CRT DLL
+[76E60000] C:\Windows\System32\shcore.dll
+           10.0.19041.388 - 10.0.19041.444 (WinBuild.160101.0800)
+           SHCORE
+[76F50000] C:\Windows\System32\ole32.dll
+           10.0.19041.84 - 10.0.19041.444 (WinBuild.160101.0800)
+           Microsoft OLE для Windows
+[770A0000] C:\Windows\System32\KERNEL32.DLL
+           10.0.19041.292 - 10.0.19041.329 (WinBuild.160101.0800)
+           Библиотека клиента Windows NT BASE API
+[77190000] C:\Windows\System32\IMM32.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Multi-User Windows IMM32 API Client DLL
+[771D0000] C:\Windows\SYSTEM32\ntdll.dll
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Системная библиотека NT
+[79AE0000] C:\Program Files (x86)\Common Files\System\ado\msado15.dll
+           10.0.19041.329 - 10.0.19041.329 (WinBuild.160101.0800)
+           ActiveX Data Objects
+------------------------------------------------------------------------------
+
+==============================================================================
+= 02.09.2020 21:10:09                                                        =
+==============================================================================
+There was an error during the execution of this program.
+The application might become unstable and even useless.
+It's recommended that you save your work and close this application.
+
+[FireDAC][Phys]-300. Driver [MSSQL] is not registered. To register it, you can drop component [TFDPhysMSSQLDriverLink] into your project.
+
+------------------------------------------------------------------------------
+Exception log with detailed tech info. Generated on 02.09.2020 21:10:09.
+You may send it to the application vendor, helping him to understand what had happened.
+ Application title: Альфа-Склад
+ Application file: \\SERVER\Users\Administrator\YandexDisk-betarkdv\AlphaSklad23\win32\debug\AlphaSklad.exe
+------------------------------------------------------------------------------
+Exception class: EFDException
+Exception message: [FireDAC][Phys]-300. Driver [MSSQL] is not registered. To register it, you can drop component [TFDPhysMSSQLDriverLink] into your project.
+Exception address: 007E8D64
+------------------------------------------------------------------------------
+Main thread ID = 19100
+Exception thread ID = 19100
+------------------------------------------------------------------------------
+Exception stack
+Stack list, generated 02.09.2020 21:10:05
+[007E8D5F]{AlphaSklad.exe} Vcl.Imaging.jpeg.ProgressCallback
+[007E8D5F]{AlphaSklad.exe} Vcl.Imaging.jpeg.ProgressCallback
+[009DE321]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TDictionary<System.string,Data.DBXCommon.TDBXDriverClass>.GetBucketIndex
+[009DE874]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TDictionary<System.string,Data.DBXCommon.TDBXDriverClass>.Create
+[009DE9F5]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TDictionary<System.string,Data.DBXCommon.TDBXDriverClass>.Add
+[0087D0F3]{AlphaSklad.exe} Vcl.ActnMenus..TCustomActionMenuBar
+[0087D54C]{AlphaSklad.exe} Vcl.ActnMenus..TCustomActionMenuBar
+[007A30D9]{AlphaSklad.exe} WordXP.TWordApplication.KeyString
+[0087DA86]{AlphaSklad.exe} Vcl.ActnMenus..TCustomMenuExpandBtn
+[009FD328]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TArrayManager<Data.DBXCommon.TDBXCreateCommand>.Finalize
+[0048DCF3]{AlphaSklad.exe} System.Rtti.{System.Generics.Defaults}TEqualityComparer<System.Pointer>.Default
+[0048DBA0]{AlphaSklad.exe} System.Rtti..{System.Generics.Collections}@TList`1.Pack$697$ActRec<System.Rtti.TPair<System.string,System.TypInfo.PTypeInfo>>
+[0048DB80]{AlphaSklad.exe} System.Rtti..{System.Generics.Collections}@TList`1.Pack$697$ActRec<System.Rtti.TPair<System.string,System.TypInfo.PTypeInfo>>
+[0067A73A]{AlphaSklad.exe} Data.DB..TGuidField
+[00A3DE6B]{AlphaSklad.exe} Data.DBXCommonTable..TDBXTableReader
+------------------------------------------------------------------------------
+Call stack for main thread
+Stack list, generated 02.09.2020 21:10:09
+[772423FC]{ntdll.dll   } ZwGetContextThread
+------------------------------------------------------------------------------
+System   : Windows 10 Professional, Version: 10.0, Build: 4A61, ""
+Processor: Intel, Intel(R) Core(TM) i7-9700T CPU @ 2.00GHz, 1990 MHz MMX SSE SSE2 SSE3 SSSE3 SSE41 SSE42 64 bits DEP
+Memory: 65317; free 40868
+Display  : 1920x1200 pixels, 32 bpp
+------------------------------------------------------------------------------
+List of loaded modules:
+[00400000] \\SERVER\Users\Administrator\YandexDisk-betarkdv\AlphaSklad23\win32\debug\AlphaSklad.exe
+           2.0.1.157 - 2.0.1.157
+           Альфа-Склад
+           Unit versioning information:
+             JCL\source\common $URL$ $Revision$ $Date$
+[52160000] C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1\COMCTL32.dll
+           5.82.19041.1 - 5.82 (WinBuild.160101.0800)
+           Библиотека общих элементов управления
+[68220000] C:\Windows\SYSTEM32\MSDART.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           OLE DB Runtime Routines
+[69040000] C:\Windows\SYSTEM32\mpr.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека маршрутизации для нескольких служб доступа
+[6BAF0000] C:\Windows\SYSTEM32\wintypes.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека DLL основных типов Windows
+[6BBD0000] C:\Windows\SYSTEM32\CoreMessaging.dll
+           10.0.19041.423 - 10.0.19041.423
+           Microsoft CoreMessaging Dll
+[6BC70000] C:\Windows\SYSTEM32\CoreUIComponents.dll
+           10.0.19041.1 - 10.0.19041.1
+           Microsoft Core UI Components Dll
+[6BEF0000] C:\Windows\SYSTEM32\textinputframework.dll
+           10.0.19041.423 - 10.0.19041.423 (WinBuild.160101.0800)
+           "TextInputFramework.DYNLINK"
+[6C330000] C:\Windows\SYSTEM32\wsock32.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Windows Socket 32-Bit DLL
+[6CA60000] C:\Windows\SYSTEM32\TextShaping.dll
+           (no module version info)
+[6CF90000] C:\Program Files (x86)\Common Files\microsoft shared\ink\tiptsf.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Инфраструктура текстовых служб сенсорной клавиатуры и панели рукописного ввода
+[6DB80000] C:\Windows\SYSTEM32\DWMAPI.DLL
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Интерфейс API диспетчера окон рабочего стола (Майкрософт)
+[6DFF0000] C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2\comctl32.DLL
+           6.10.19041.1 - 6.10 (WinBuild.160101.0800)
+           Библиотека элементов управления взаимодействия с пользователем
+[6E2B0000] C:\Windows\SYSTEM32\SHFolder.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Shell Folder Service
+[6E870000] C:\Windows\SYSTEM32\WINSTA.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Winstation Library
+[72F80000] C:\Windows\SYSTEM32\ntmarta.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Поставщик Windows NT MARTA
+[73AE0000] C:\Windows\SYSTEM32\version.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Version Checking and File Installation Libraries
+[73BA0000] C:\Windows\SYSTEM32\winmm.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           MCI API DLL
+[73D40000] C:\Windows\SYSTEM32\oleacc.dll
+           7.2.19041.1 - 7.2.19041.1 (WinBuild.160101.0800)
+           Active Accessibility Core Component
+[73DA0000] C:\Windows\SYSTEM32\wtsapi32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows Remote Desktop Session Host Server SDK APIs
+[73E50000] C:\Windows\system32\uxtheme.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека тем UxTheme (Microsoft)
+[73EE0000] C:\Windows\SYSTEM32\winspool.drv
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Драйвер диспетчера очереди Windows
+[74070000] C:\Windows\SYSTEM32\NETUTILS.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Net Win32 API Helpers DLL
+[74080000] C:\Windows\SYSTEM32\kernel.appcore.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           AppModel API Host
+[740C0000] C:\Windows\System32\dbghelp.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows Image Helper
+[74500000] C:\Windows\SYSTEM32\netapi32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Net Win32 API DLL
+[750B0000] C:\Windows\System32\gdi32full.dll
+           10.0.19041.388 - 10.0.19041.388 (WinBuild.160101.0800)
+           GDI Client DLL
+[75190000] C:\Windows\System32\combase.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Microsoft COM для Windows
+[75420000] C:\Windows\System32\WS2_32.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           32-разрядная библиотека Windows Socket 2.0
+[75490000] C:\Windows\System32\PSAPI.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Process Status Helper
+[755B0000] C:\Windows\System32\RPCRT4.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека удаленного вызова процедур
+[75670000] C:\Windows\System32\KERNELBASE.dll
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека клиента Windows NT BASE API
+[75890000] C:\Windows\System32\Msctf.dll
+           10.0.19041.388 - 10.0.19041.444 (WinBuild.160101.0800)
+           Серверная библиотека MSCTF
+[75970000] C:\Windows\System32\advapi32.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Расширенная библиотека API Windows 32
+[759F0000] C:\Windows\System32\imagehlp.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows NT Image Helper
+[75A10000] C:\Windows\System32\win32u.dll
+           10.0.19041.450 - 10.0.19041.450 (WinBuild.160101.0800)
+           Win32u
+[75A30000] C:\Windows\System32\comdlg32.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека общих диалоговых окон
+[75AE0000] C:\Windows\System32\sechost.dll
+           10.0.19041.388 - 10.0.19041.1 (WinBuild.160101.0800)
+           Host for SCM/SDDL/LSA Lookup APIs
+[75C40000] C:\Windows\System32\oleaut32.dll
+           10.0.19041.388 - 10.0.19041.388 (WinBuild.160101.0800)
+           OLEAUT32.DLL
+[76290000] C:\Windows\System32\SHLWAPI.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека небольших программ оболочки
+[762E0000] C:\Windows\System32\msvcp_win.dll
+           10.0.19041.423 - 10.0.19041.423 (WinBuild.160101.0800)
+           Microsoft® C Runtime Library
+[76360000] C:\Windows\System32\bcryptPrimitives.dll
+           10.0.19041.264 - 10.0.19041.264 (WinBuild.160101.0800)
+           Windows Cryptographic Primitives Library
+[763C0000] C:\Windows\System32\ucrtbase.dll
+           10.0.19041.423 - 10.0.19041.423 (WinBuild.160101.0800)
+           Microsoft® C Runtime Library
+[764E0000] C:\Windows\System32\clbcatq.dll
+           2001.12.10941.16384 - 2001.12.10941.16384 (WinBuild.160101.0800)
+           COM+ Configuration Catalog
+[76560000] C:\Windows\System32\USER32.dll
+           10.0.19041.388 - 10.0.19041.444 (WinBuild.160101.0800)
+           Многопользовательская библиотека клиента USER API Windows
+[76760000] C:\Windows\System32\SHELL32.dll
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Общая библиотека оболочки Windows
+[76D10000] C:\Windows\System32\GDI32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           GDI Client DLL
+[76DA0000] C:\Windows\System32\msvcrt.dll
+           7.0.19041.1 - 7.0.19041.1 (WinBuild.160101.0800)
+           Windows NT CRT DLL
+[76E60000] C:\Windows\System32\shcore.dll
+           10.0.19041.388 - 10.0.19041.444 (WinBuild.160101.0800)
+           SHCORE
+[76F50000] C:\Windows\System32\ole32.dll
+           10.0.19041.84 - 10.0.19041.444 (WinBuild.160101.0800)
+           Microsoft OLE для Windows
+[770A0000] C:\Windows\System32\KERNEL32.DLL
+           10.0.19041.292 - 10.0.19041.329 (WinBuild.160101.0800)
+           Библиотека клиента Windows NT BASE API
+[77190000] C:\Windows\System32\IMM32.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Multi-User Windows IMM32 API Client DLL
+[771D0000] C:\Windows\SYSTEM32\ntdll.dll
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Системная библиотека NT
+[79AE0000] C:\Program Files (x86)\Common Files\System\ado\msado15.dll
+           10.0.19041.329 - 10.0.19041.329 (WinBuild.160101.0800)
+           ActiveX Data Objects
+------------------------------------------------------------------------------
+Active Controls hierarchy:
+TLogonForm "LogonForm"
+------------------------------------------------------------------------------
+
+==============================================================================
+= 02.09.2020 21:10:12                                                        =
+==============================================================================
+There was an error during the execution of this program.
+The application might become unstable and even useless.
+It's recommended that you save your work and close this application.
+
+[FireDAC][Phys]-300. Driver [MSSQL] is not registered. To register it, you can drop component [TFDPhysMSSQLDriverLink] into your project.
+
+------------------------------------------------------------------------------
+Exception log with detailed tech info. Generated on 02.09.2020 21:10:12.
+You may send it to the application vendor, helping him to understand what had happened.
+ Application title: Альфа-Склад
+ Application file: \\SERVER\Users\Administrator\YandexDisk-betarkdv\AlphaSklad23\win32\debug\AlphaSklad.exe
+------------------------------------------------------------------------------
+Exception class: EFDException
+Exception message: [FireDAC][Phys]-300. Driver [MSSQL] is not registered. To register it, you can drop component [TFDPhysMSSQLDriverLink] into your project.
+Exception address: 007E8D64
+------------------------------------------------------------------------------
+Main thread ID = 19100
+Exception thread ID = 19100
+------------------------------------------------------------------------------
+Exception stack
+Stack list, generated 02.09.2020 21:10:10
+[007E8D5F]{AlphaSklad.exe} Vcl.Imaging.jpeg.ProgressCallback
+[007E8D5F]{AlphaSklad.exe} Vcl.Imaging.jpeg.ProgressCallback
+[009DE321]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TDictionary<System.string,Data.DBXCommon.TDBXDriverClass>.GetBucketIndex
+[009DE874]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TDictionary<System.string,Data.DBXCommon.TDBXDriverClass>.Create
+[009DE9F5]{AlphaSklad.exe} Data.DBXCommon.{System.Generics.Collections}TDictionary<System.string,Data.DBXCommon.TDBXDriverClass>.Add
+[0087D0F3]{AlphaSklad.exe} Vcl.ActnMenus..TCustomActionMenuBar
+[0087D54C]{AlphaSklad.exe} Vcl.ActnMenus..TCustomActionMenuBar
+[007A30D9]{AlphaSklad.exe} WordXP.TWordApplication.KeyString
+[007A3094]{AlphaSklad.exe} WordXP.TWordApplication.KeyString
+[0087CF14]{AlphaSklad.exe} Vcl.ActnMenus.TActionBarStyleEx.GetScrollBtnClass
+[0088D3CD]{AlphaSklad.exe} Vcl.ActnMan..TCustomActionBar
+[007B80A9]{AlphaSklad.exe} Vcl.Grids.TCustomGrid.DeleteRow
+[0084990B]{AlphaSklad.exe} ExcelXP.TExcelApplication.Dummy5 (Line 1365, "" + 0)
+[0048DCF3]{AlphaSklad.exe} System.Rtti.{System.Generics.Defaults}TEqualityComparer<System.Pointer>.Default
+[0048DBA0]{AlphaSklad.exe} System.Rtti..{System.Generics.Collections}@TList`1.Pack$697$ActRec<System.Rtti.TPair<System.string,System.TypInfo.PTypeInfo>>
+[0048DB80]{AlphaSklad.exe} System.Rtti..{System.Generics.Collections}@TList`1.Pack$697$ActRec<System.Rtti.TPair<System.string,System.TypInfo.PTypeInfo>>
+[0067A73A]{AlphaSklad.exe} Data.DB..TGuidField
+[00A3DE92]{AlphaSklad.exe} Data.DBXCommonTable..TDBXTableReader
+------------------------------------------------------------------------------
+Call stack for main thread
+Stack list, generated 02.09.2020 21:10:12
+[772423FC]{ntdll.dll   } ZwGetContextThread
+------------------------------------------------------------------------------
+System   : Windows 10 Professional, Version: 10.0, Build: 4A61, ""
+Processor: Intel, Intel(R) Core(TM) i7-9700T CPU @ 2.00GHz, 1990 MHz MMX SSE SSE2 SSE3 SSSE3 SSE41 SSE42 64 bits DEP
+Memory: 65317; free 40852
+Display  : 1920x1200 pixels, 32 bpp
+------------------------------------------------------------------------------
+List of loaded modules:
+[00400000] \\SERVER\Users\Administrator\YandexDisk-betarkdv\AlphaSklad23\win32\debug\AlphaSklad.exe
+           2.0.1.157 - 2.0.1.157
+           Альфа-Склад
+           Unit versioning information:
+             JCL\source\common $URL$ $Revision$ $Date$
+[52160000] C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1\COMCTL32.dll
+           5.82.19041.1 - 5.82 (WinBuild.160101.0800)
+           Библиотека общих элементов управления
+[68220000] C:\Windows\SYSTEM32\MSDART.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           OLE DB Runtime Routines
+[69040000] C:\Windows\SYSTEM32\mpr.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека маршрутизации для нескольких служб доступа
+[6BAF0000] C:\Windows\SYSTEM32\wintypes.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека DLL основных типов Windows
+[6BBD0000] C:\Windows\SYSTEM32\CoreMessaging.dll
+           10.0.19041.423 - 10.0.19041.423
+           Microsoft CoreMessaging Dll
+[6BC70000] C:\Windows\SYSTEM32\CoreUIComponents.dll
+           10.0.19041.1 - 10.0.19041.1
+           Microsoft Core UI Components Dll
+[6BEF0000] C:\Windows\SYSTEM32\textinputframework.dll
+           10.0.19041.423 - 10.0.19041.423 (WinBuild.160101.0800)
+           "TextInputFramework.DYNLINK"
+[6C330000] C:\Windows\SYSTEM32\wsock32.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Windows Socket 32-Bit DLL
+[6CA60000] C:\Windows\SYSTEM32\TextShaping.dll
+           (no module version info)
+[6CF90000] C:\Program Files (x86)\Common Files\microsoft shared\ink\tiptsf.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Инфраструктура текстовых служб сенсорной клавиатуры и панели рукописного ввода
+[6DB80000] C:\Windows\SYSTEM32\DWMAPI.DLL
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Интерфейс API диспетчера окон рабочего стола (Майкрософт)
+[6DFF0000] C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2\comctl32.DLL
+           6.10.19041.1 - 6.10 (WinBuild.160101.0800)
+           Библиотека элементов управления взаимодействия с пользователем
+[6E2B0000] C:\Windows\SYSTEM32\SHFolder.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Shell Folder Service
+[6E870000] C:\Windows\SYSTEM32\WINSTA.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Winstation Library
+[72F80000] C:\Windows\SYSTEM32\ntmarta.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Поставщик Windows NT MARTA
+[73AE0000] C:\Windows\SYSTEM32\version.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Version Checking and File Installation Libraries
+[73BA0000] C:\Windows\SYSTEM32\winmm.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           MCI API DLL
+[73D40000] C:\Windows\SYSTEM32\oleacc.dll
+           7.2.19041.1 - 7.2.19041.1 (WinBuild.160101.0800)
+           Active Accessibility Core Component
+[73DA0000] C:\Windows\SYSTEM32\wtsapi32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows Remote Desktop Session Host Server SDK APIs
+[73E50000] C:\Windows\system32\uxtheme.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека тем UxTheme (Microsoft)
+[73EE0000] C:\Windows\SYSTEM32\winspool.drv
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Драйвер диспетчера очереди Windows
+[74070000] C:\Windows\SYSTEM32\NETUTILS.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Net Win32 API Helpers DLL
+[74080000] C:\Windows\SYSTEM32\kernel.appcore.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           AppModel API Host
+[740C0000] C:\Windows\System32\dbghelp.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows Image Helper
+[74500000] C:\Windows\SYSTEM32\netapi32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Net Win32 API DLL
+[750B0000] C:\Windows\System32\gdi32full.dll
+           10.0.19041.388 - 10.0.19041.388 (WinBuild.160101.0800)
+           GDI Client DLL
+[75190000] C:\Windows\System32\combase.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Microsoft COM для Windows
+[75420000] C:\Windows\System32\WS2_32.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           32-разрядная библиотека Windows Socket 2.0
+[75490000] C:\Windows\System32\PSAPI.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Process Status Helper
+[755B0000] C:\Windows\System32\RPCRT4.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека удаленного вызова процедур
+[75670000] C:\Windows\System32\KERNELBASE.dll
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека клиента Windows NT BASE API
+[75890000] C:\Windows\System32\Msctf.dll
+           10.0.19041.388 - 10.0.19041.444 (WinBuild.160101.0800)
+           Серверная библиотека MSCTF
+[75970000] C:\Windows\System32\advapi32.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Расширенная библиотека API Windows 32
+[759F0000] C:\Windows\System32\imagehlp.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows NT Image Helper
+[75A10000] C:\Windows\System32\win32u.dll
+           10.0.19041.450 - 10.0.19041.450 (WinBuild.160101.0800)
+           Win32u
+[75A30000] C:\Windows\System32\comdlg32.dll
+           10.0.19041.329 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека общих диалоговых окон
+[75AE0000] C:\Windows\System32\sechost.dll
+           10.0.19041.388 - 10.0.19041.1 (WinBuild.160101.0800)
+           Host for SCM/SDDL/LSA Lookup APIs
+[75C40000] C:\Windows\System32\oleaut32.dll
+           10.0.19041.388 - 10.0.19041.388 (WinBuild.160101.0800)
+           OLEAUT32.DLL
+[76290000] C:\Windows\System32\SHLWAPI.dll
+           10.0.19041.1 - 10.0.19041.444 (WinBuild.160101.0800)
+           Библиотека небольших программ оболочки
+[762E0000] C:\Windows\System32\msvcp_win.dll
+           10.0.19041.423 - 10.0.19041.423 (WinBuild.160101.0800)
+           Microsoft® C Runtime Library
+[76360000] C:\Windows\System32\bcryptPrimitives.dll
+           10.0.19041.264 - 10.0.19041.264 (WinBuild.160101.0800)
+           Windows Cryptographic Primitives Library
+[763C0000] C:\Windows\System32\ucrtbase.dll
+           10.0.19041.423 - 10.0.19041.423 (WinBuild.160101.0800)
+           Microsoft® C Runtime Library
+[764E0000] C:\Windows\System32\clbcatq.dll
+           2001.12.10941.16384 - 2001.12.10941.16384 (WinBuild.160101.0800)
+           COM+ Configuration Catalog
+[76560000] C:\Windows\System32\USER32.dll
+           10.0.19041.388 - 10.0.19041.444 (WinBuild.160101.0800)
+           Многопользовательская библиотека клиента USER API Windows
+[76760000] C:\Windows\System32\SHELL32.dll
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Общая библиотека оболочки Windows
+[76D10000] C:\Windows\System32\GDI32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           GDI Client DLL
+[76DA0000] C:\Windows\System32\msvcrt.dll
+           7.0.19041.1 - 7.0.19041.1 (WinBuild.160101.0800)
+           Windows NT CRT DLL
+[76E60000] C:\Windows\System32\shcore.dll
+           10.0.19041.388 - 10.0.19041.444 (WinBuild.160101.0800)
+           SHCORE
+[76F50000] C:\Windows\System32\ole32.dll
+           10.0.19041.84 - 10.0.19041.444 (WinBuild.160101.0800)
+           Microsoft OLE для Windows
+[770A0000] C:\Windows\System32\KERNEL32.DLL
+           10.0.19041.292 - 10.0.19041.329 (WinBuild.160101.0800)
+           Библиотека клиента Windows NT BASE API
+[77190000] C:\Windows\System32\IMM32.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Multi-User Windows IMM32 API Client DLL
+[771D0000] C:\Windows\SYSTEM32\ntdll.dll
+           10.0.19041.423 - 10.0.19041.444 (WinBuild.160101.0800)
+           Системная библиотека NT
+[79AE0000] C:\Program Files (x86)\Common Files\System\ado\msado15.dll
+           10.0.19041.329 - 10.0.19041.329 (WinBuild.160101.0800)
+           ActiveX Data Objects
+------------------------------------------------------------------------------
