@@ -47,3 +47,10 @@ modules/
 
 # Add build directories below 
 # (Exe not actually needed since it is covered by *.exe above)
+
+/Win32/
+/Viewer/Win32/
+/PrjConvertDB/Win32/
+/AlphaSklad/
+/db2/
+/Db1/
