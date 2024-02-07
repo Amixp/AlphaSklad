@@ -344,7 +344,7 @@ begin // поиск ключа в таблице
   FDConn.
   if fLike then
       rsv:=FDConn.ExecSQLScalar('SELECT :TargetKey FROM :TableName WHERE :KeyName like :KeyValue',[TargetKey,TableName,KeyName,KeyValue],[ftString,ftString,ftString,ftString])
-      else
+      else                   // TODO: Обьявить переменную
       rsv:=FDConn.ExecSQLScalar('SELECT :TargetKey FROM :TableName WHERE :KeyName = :KeyValue',[TargetKey,TableName,KeyName,KeyValue],[ftString,ftString,ftString,ftString])  ;
 
     if not VarIsEmpty(rsv) then
